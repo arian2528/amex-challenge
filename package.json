@@ -4,12 +4,13 @@
   "description": "interview challenge",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo test not specified"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^4.28.0"
+    "fastify": "^4.28.0",
+    "nodemon": "^3.1.4"
   }
 }
